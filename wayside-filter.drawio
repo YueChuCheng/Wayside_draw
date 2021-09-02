@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-02T11:39:08.570Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="GRDMCKI_XG9sZtQuGl8E" version="15.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-02T12:10:42.589Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="xFLQDBUiD3D-bqgB--zl" version="15.0.5" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="1564" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -703,7 +703,12 @@
           <mxGeometry x="370" y="1770" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="LR9RrRt59bDRkozQZFeQ-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LR9RrRt59bDRkozQZFeQ-19" target="LR9RrRt59bDRkozQZFeQ-27">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="2123" />
+              <mxPoint x="600" y="2040" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="LR9RrRt59bDRkozQZFeQ-19" value="call update tracks" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;fontSize=7;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="370" y="2110" width="160" height="26" as="geometry" />
@@ -718,19 +723,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LR9RrRt59bDRkozQZFeQ-27" value="&lt;span&gt;update tracks&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;fontSize=7;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
-          <mxGeometry x="660" y="2076" width="120" height="60" as="geometry" />
+          <mxGeometry x="660" y="2010" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LR9RrRt59bDRkozQZFeQ-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LR9RrRt59bDRkozQZFeQ-29" target="LR9RrRt59bDRkozQZFeQ-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LR9RrRt59bDRkozQZFeQ-29" value="if exist frame number &amp;lt; 2&lt;br&gt;then return false" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;fontSize=7;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="640" y="2160" width="160" height="26" as="geometry" />
+          <mxGeometry x="640" y="2094" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="LR9RrRt59bDRkozQZFeQ-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LR9RrRt59bDRkozQZFeQ-37" target="LR9RrRt59bDRkozQZFeQ-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LR9RrRt59bDRkozQZFeQ-37" value="&lt;span style=&quot;font-size: 7px&quot;&gt;update max_frame_id_tracked&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;fontSize=7;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
-          <mxGeometry x="640" y="2220" width="160" height="60" as="geometry" />
+          <mxGeometry x="640" y="2154" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LR9RrRt59bDRkozQZFeQ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LR9RrRt59bDRkozQZFeQ-41" target="LR9RrRt59bDRkozQZFeQ-42">
           <mxGeometry relative="1" as="geometry" />
@@ -772,16 +777,31 @@
           <mxGeometry x="710" y="1860" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LR9RrRt59bDRkozQZFeQ-59" value="publish popped frame" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;fontSize=7;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="370" y="2370" width="160" height="56" as="geometry" />
+          <mxGeometry x="370" y="2440" width="160" height="56" as="geometry" />
         </mxCell>
         <mxCell id="LR9RrRt59bDRkozQZFeQ-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LR9RrRt59bDRkozQZFeQ-60" target="LR9RrRt59bDRkozQZFeQ-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LR9RrRt59bDRkozQZFeQ-60" value="&lt;span style=&quot;font-size: 7px&quot;&gt;score similarities b/w nodes from neighboring frames&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;fontSize=7;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
-          <mxGeometry x="660" y="2310" width="120" height="60" as="geometry" />
+          <mxGeometry x="660" y="2244" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LR9RrRt59bDRkozQZFeQ-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LR9RrRt59bDRkozQZFeQ-63" target="LR9RrRt59bDRkozQZFeQ-70">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LR9RrRt59bDRkozQZFeQ-63" value="&lt;span style=&quot;font-size: 7px&quot;&gt;repeating extending an existing track or creating a new track&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;fontSize=7;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
-          <mxGeometry x="660" y="2390" width="120" height="60" as="geometry" />
+          <mxGeometry x="660" y="2324" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LR9RrRt59bDRkozQZFeQ-67" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="2320" as="sourcePoint" />
+            <mxPoint x="950" y="2320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LR9RrRt59bDRkozQZFeQ-68" value="update tracks loop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="830" y="2290" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LR9RrRt59bDRkozQZFeQ-70" value="build a distance table of tracked_nodes and untracked_nodes" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;fontSize=7;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="660" y="2420" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
