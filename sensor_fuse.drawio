@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-12T01:05:19.011Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="yZdaEyUaW5Yx0J_2AZbU" version="15.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-12T12:53:29.065Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="elIoKPfcGpjAll8fbTVx" version="15.1.2" type="github">
   <diagram id="PON6CkjpmatlW48zQgnX" name="Page-1">
-    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="652" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,6 +30,57 @@
         </mxCell>
         <mxCell id="Oml-ETRZI0FwquPFOEFe-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Oml-ETRZI0FwquPFOEFe-4" target="Oml-ETRZI0FwquPFOEFe-6">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oml-ETRZI0FwquPFOEFe-13" value="fuse.rs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="570" y="80" width="280" height="236" as="geometry" />
+        </mxCell>
+        <mxCell id="Oml-ETRZI0FwquPFOEFe-14" value="fuse_worker" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Oml-ETRZI0FwquPFOEFe-13">
+          <mxGeometry y="26" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oml-ETRZI0FwquPFOEFe-21" value="project_points" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Oml-ETRZI0FwquPFOEFe-13">
+          <mxGeometry y="56" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oml-ETRZI0FwquPFOEFe-22" value="cluster_points" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Oml-ETRZI0FwquPFOEFe-13">
+          <mxGeometry y="86" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oml-ETRZI0FwquPFOEFe-23" value="associate_object_and_points" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Oml-ETRZI0FwquPFOEFe-13">
+          <mxGeometry y="116" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oml-ETRZI0FwquPFOEFe-24" value="associate_temporal_clusters" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Oml-ETRZI0FwquPFOEFe-13">
+          <mxGeometry y="146" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oml-ETRZI0FwquPFOEFe-25" value="construct_output_msg" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Oml-ETRZI0FwquPFOEFe-13">
+          <mxGeometry y="176" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oml-ETRZI0FwquPFOEFe-26" value="construct_output_msg" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Oml-ETRZI0FwquPFOEFe-13">
+          <mxGeometry y="206" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oml-ETRZI0FwquPFOEFe-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Oml-ETRZI0FwquPFOEFe-11" target="Oml-ETRZI0FwquPFOEFe-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="251" />
+              <mxPoint x="520" y="108" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oml-ETRZI0FwquPFOEFe-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0.967;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Oml-ETRZI0FwquPFOEFe-27" target="Oml-ETRZI0FwquPFOEFe-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oml-ETRZI0FwquPFOEFe-27" value="compute pcd point to image point relations" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="106" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oml-ETRZI0FwquPFOEFe-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Oml-ETRZI0FwquPFOEFe-14" target="Oml-ETRZI0FwquPFOEFe-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="121" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oml-ETRZI0FwquPFOEFe-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Oml-ETRZI0FwquPFOEFe-29" target="Oml-ETRZI0FwquPFOEFe-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oml-ETRZI0FwquPFOEFe-29" value="cluster points" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="167" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
