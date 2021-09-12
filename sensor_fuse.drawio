@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-12T14:36:22.127Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="f_8Qm8utPy47vchPnxwN" version="15.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-12T14:46:06.771Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="NAAfUXR5hkIcfagl-yb0" version="15.1.2" type="github">
   <diagram id="PON6CkjpmatlW48zQgnX" name="Page-1">
-    <mxGraphModel dx="920" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="652" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -151,8 +151,20 @@
         <mxCell id="Oml-ETRZI0FwquPFOEFe-52" value="associate objects and clusters" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="1335" y="310" width="170" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Oml-ETRZI0FwquPFOEFe-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="Oml-ETRZI0FwquPFOEFe-56" target="Oml-ETRZI0FwquPFOEFe-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Oml-ETRZI0FwquPFOEFe-56" value="relate clusters among previous and current frames" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="1335" y="390" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oml-ETRZI0FwquPFOEFe-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="Oml-ETRZI0FwquPFOEFe-58" target="Oml-ETRZI0FwquPFOEFe-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oml-ETRZI0FwquPFOEFe-58" value="update cached frame" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oml-ETRZI0FwquPFOEFe-60" value="construct output message" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="555" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
