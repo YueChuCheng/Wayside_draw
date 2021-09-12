@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2021-09-12T00:08:52.235Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" version="15.1.2" etag="glnBBVrUuctlIFYkZC6W" type="github"><diagram id="PON6CkjpmatlW48zQgnX">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-12T01:05:19.011Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="yZdaEyUaW5Yx0J_2AZbU" version="15.1.2" type="github">
+  <diagram id="PON6CkjpmatlW48zQgnX" name="Page-1">
+    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Oml-ETRZI0FwquPFOEFe-1" value="main.rs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="20" y="80" width="160" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="Oml-ETRZI0FwquPFOEFe-4" value="start&#xa;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Oml-ETRZI0FwquPFOEFe-1">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oml-ETRZI0FwquPFOEFe-5" value="lib.rs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="220" y="80" width="280" height="188" as="geometry" />
+        </mxCell>
+        <mxCell id="Oml-ETRZI0FwquPFOEFe-6" value="start&#xa;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Oml-ETRZI0FwquPFOEFe-5">
+          <mxGeometry y="26" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oml-ETRZI0FwquPFOEFe-7" value="load parameters" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;rounded=1;" vertex="1" parent="Oml-ETRZI0FwquPFOEFe-5">
+          <mxGeometry y="56" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oml-ETRZI0FwquPFOEFe-8" value="compute device to device coordinate transforms" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;rounded=1;" vertex="1" parent="Oml-ETRZI0FwquPFOEFe-5">
+          <mxGeometry y="86" width="280" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Oml-ETRZI0FwquPFOEFe-10" value="start visualizers" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;rounded=1;" vertex="1" parent="Oml-ETRZI0FwquPFOEFe-5">
+          <mxGeometry y="120" width="280" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Oml-ETRZI0FwquPFOEFe-11" value="start fuser" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;rounded=1;" vertex="1" parent="Oml-ETRZI0FwquPFOEFe-5">
+          <mxGeometry y="154" width="280" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Oml-ETRZI0FwquPFOEFe-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Oml-ETRZI0FwquPFOEFe-4" target="Oml-ETRZI0FwquPFOEFe-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
