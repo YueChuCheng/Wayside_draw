@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-05T09:32:07.426Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="DKqUfAzTtQDy3VMqIXJP" version="15.4.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-05T09:33:06.451Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="GlLECvyszaSLUrO04lk7" version="15.4.1" type="github" pages="2">
   <diagram name="wayside-filter" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="1882" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3334" dy="1246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -975,72 +975,72 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bJrnhZ-E4jPo-6mJ6u_s-44" value="update track" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-557" y="388" width="74" height="37" as="geometry" />
+          <mxGeometry x="-590" y="320" width="74" height="37" as="geometry" />
         </mxCell>
         <mxCell id="bJrnhZ-E4jPo-6mJ6u_s-48" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bJrnhZ-E4jPo-6mJ6u_s-45" target="bJrnhZ-E4jPo-6mJ6u_s-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bJrnhZ-E4jPo-6mJ6u_s-45" value="check if number of frames in FlowGraph is less than 2, then update will not proceed." style="rounded=1;whiteSpace=wrap;html=1;shadow=0;fontSize=7;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-440" y="343" width="160" height="60" as="geometry" />
+          <mxGeometry x="-473" y="275" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bJrnhZ-E4jPo-6mJ6u_s-50" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bJrnhZ-E4jPo-6mJ6u_s-47" target="bJrnhZ-E4jPo-6mJ6u_s-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bJrnhZ-E4jPo-6mJ6u_s-47" value="score similarities b/w nodes from neighboring frames" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;fontSize=7;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-440" y="450" width="160" height="26" as="geometry" />
+          <mxGeometry x="-473" y="382" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="bJrnhZ-E4jPo-6mJ6u_s-72" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bJrnhZ-E4jPo-6mJ6u_s-49" target="bJrnhZ-E4jPo-6mJ6u_s-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bJrnhZ-E4jPo-6mJ6u_s-49" value="&lt;span style=&quot;font-size: 7px&quot;&gt;loop&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 7px&quot;&gt;repeating extending an existing track or creating a new track&lt;/span&gt;&lt;span style=&quot;font-size: 7px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-462.32" y="506" width="204.64" height="62" as="geometry" />
+          <mxGeometry x="-495.32" y="438" width="204.64" height="62" as="geometry" />
         </mxCell>
         <mxCell id="bJrnhZ-E4jPo-6mJ6u_s-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bJrnhZ-E4jPo-6mJ6u_s-60" target="bJrnhZ-E4jPo-6mJ6u_s-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bJrnhZ-E4jPo-6mJ6u_s-60" value="find the nearest node (min total distance means maximum total score)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;fontSize=7;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-440" y="612" width="160" height="26" as="geometry" />
+          <mxGeometry x="-473" y="544" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="bJrnhZ-E4jPo-6mJ6u_s-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bJrnhZ-E4jPo-6mJ6u_s-62" target="bJrnhZ-E4jPo-6mJ6u_s-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bJrnhZ-E4jPo-6mJ6u_s-62" value="reject the candidate that comes from the ghost node" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;fontSize=7;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-525" y="672" width="160" height="26" as="geometry" />
+          <mxGeometry x="-558" y="604" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="bJrnhZ-E4jPo-6mJ6u_s-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bJrnhZ-E4jPo-6mJ6u_s-64" target="bJrnhZ-E4jPo-6mJ6u_s-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bJrnhZ-E4jPo-6mJ6u_s-64" value="reject the candidate with negative score&lt;br&gt;*score = -distance" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;fontSize=7;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-340" y="672" width="160" height="26" as="geometry" />
+          <mxGeometry x="-373" y="604" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="bJrnhZ-E4jPo-6mJ6u_s-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bJrnhZ-E4jPo-6mJ6u_s-66" target="bJrnhZ-E4jPo-6mJ6u_s-68">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bJrnhZ-E4jPo-6mJ6u_s-66" value="recover the path" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;fontSize=7;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-440" y="732" width="160" height="26" as="geometry" />
+          <mxGeometry x="-473" y="664" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="bJrnhZ-E4jPo-6mJ6u_s-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bJrnhZ-E4jPo-6mJ6u_s-68" target="bJrnhZ-E4jPo-6mJ6u_s-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bJrnhZ-E4jPo-6mJ6u_s-68" value="find an existing track that the path is adjacent to" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;fontSize=7;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-530" y="792" width="160" height="26" as="geometry" />
+          <mxGeometry x="-563" y="724" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="bJrnhZ-E4jPo-6mJ6u_s-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bJrnhZ-E4jPo-6mJ6u_s-70" target="bJrnhZ-E4jPo-6mJ6u_s-71">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bJrnhZ-E4jPo-6mJ6u_s-70" value="if an adjacent track exists, extend that track.otherwise, create a new track" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;fontSize=7;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-350" y="792" width="160" height="26" as="geometry" />
+          <mxGeometry x="-383" y="724" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="bJrnhZ-E4jPo-6mJ6u_s-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bJrnhZ-E4jPo-6mJ6u_s-71" target="bJrnhZ-E4jPo-6mJ6u_s-49">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-120" y="865" />
-              <mxPoint x="-120" y="537" />
+              <mxPoint x="-153" y="797" />
+              <mxPoint x="-153" y="469" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="bJrnhZ-E4jPo-6mJ6u_s-71" value="update tracked frame index" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;fontSize=7;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-450" y="852" width="160" height="26" as="geometry" />
+          <mxGeometry x="-483" y="784" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
