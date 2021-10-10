@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-10T15:31:20.026Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="dqRpqxJ52Sy2qDB7e3bU" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-10T15:43:35.818Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="kcrzaWGaU4orpxHwoIMS" version="15.4.3" type="github">
   <diagram id="PON6CkjpmatlW48zQgnX" name="Page-1">
-    <mxGraphModel dx="1747" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1479" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -35,7 +35,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Oml-ETRZI0FwquPFOEFe-13" value="fuse.rs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="570" y="80" width="220" height="300" as="geometry" />
+          <mxGeometry x="650" y="80" width="220" height="300" as="geometry" />
         </mxCell>
         <mxCell id="Oml-ETRZI0FwquPFOEFe-14" value="fuse_worker" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;align=center;" parent="Oml-ETRZI0FwquPFOEFe-13" vertex="1">
           <mxGeometry y="26" width="220" height="30" as="geometry" />
@@ -174,12 +174,13 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="529" y="350" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="530" y="243" />
+              <mxPoint x="630" y="243" />
+              <mxPoint x="630" y="399" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Oml-ETRZI0FwquPFOEFe-69" value="pub struct PointState" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="470" y="390" width="120" height="30" as="geometry" />
+          <mxGeometry x="670" y="383.5" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="h-t2_YneXFuTE2Xks3b--12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="h-t2_YneXFuTE2Xks3b--8" target="h-t2_YneXFuTE2Xks3b--15" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -227,6 +228,20 @@
         </mxCell>
         <mxCell id="h-t2_YneXFuTE2Xks3b--27" value="plot object cluster relations" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" parent="1" vertex="1">
           <mxGeometry x="38.5" y="720" width="183" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MAvpsio0RTC3ej3963G2-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Oml-ETRZI0FwquPFOEFe-10" target="MAvpsio0RTC3ej3963G2-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MAvpsio0RTC3ej3963G2-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MAvpsio0RTC3ej3963G2-3" target="MAvpsio0RTC3ej3963G2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MAvpsio0RTC3ej3963G2-3" value="get visualizer config" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="470" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MAvpsio0RTC3ej3963G2-4" value="get future message" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="470" y="495" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
