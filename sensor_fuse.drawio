@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-10T15:43:53.500Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="U8s83sq4rskl7BgBzM_X" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-10T15:53:03.632Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="X8Jn-9Zepq8kKaRmpmPq" version="15.4.3" type="github">
   <diagram id="PON6CkjpmatlW48zQgnX" name="Page-1">
-    <mxGraphModel dx="1479" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1366" dy="301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -242,6 +242,18 @@
         </mxCell>
         <mxCell id="MAvpsio0RTC3ej3963G2-4" value="get visualizer future message" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="470" y="495" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MAvpsio0RTC3ej3963G2-7" value="wayside_config/src/sensor_fuse.rs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="641" y="494" width="220" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="MAvpsio0RTC3ej3963G2-17" value="struct VisualizerConfig" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;align=center;" vertex="1" parent="MAvpsio0RTC3ej3963G2-7">
+          <mxGeometry y="26" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MAvpsio0RTC3ej3963G2-18" value="sensor-fuse/src/mod.rs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="650" y="615" width="220" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="MAvpsio0RTC3ej3963G2-19" value="struct VisualizerConfig" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;align=center;" vertex="1" parent="MAvpsio0RTC3ej3963G2-18">
+          <mxGeometry y="26" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
