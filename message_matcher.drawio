@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2021-10-19T23:59:16.737Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" version="15.5.0" etag="ZL5hml_cKuvp5ShYYy9V" type="github"><diagram id="oGIT__D-w69nhTGaexgb">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-20T06:32:41.578Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="M-U6NGYgF0BAXIo-m5_n" version="15.5.0" type="github">
+  <diagram id="oGIT__D-w69nhTGaexgb" name="Page-1">
+    <mxGraphModel dx="2130" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wSRy6hLbSATEtMvh9MJD-1" value="matcher worker" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wSRy6hLbSATEtMvh9MJD-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wSRy6hLbSATEtMvh9MJD-2" target="wSRy6hLbSATEtMvh9MJD-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wSRy6hLbSATEtMvh9MJD-2" value="recv_future" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wSRy6hLbSATEtMvh9MJD-3" value="push message to corresponding buffer" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="125" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wSRy6hLbSATEtMvh9MJD-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wSRy6hLbSATEtMvh9MJD-4" target="wSRy6hLbSATEtMvh9MJD-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wSRy6hLbSATEtMvh9MJD-4" value="select stream" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wSRy6hLbSATEtMvh9MJD-6" value="push to buffer according to is device key" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wSRy6hLbSATEtMvh9MJD-8" value="可是message matcher 也不會全部 camera的封包都收到才送到matcher，所以不能count camera-camera diff" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="220" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wSRy6hLbSATEtMvh9MJD-9" value="照message matcher 看來也只是 每個camera 之間的diff而已， 沒辦法看到frame之間的" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="300" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wSRy6hLbSATEtMvh9MJD-10" value="run matching&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wSRy6hLbSATEtMvh9MJD-11" value="publish" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wSRy6hLbSATEtMvh9MJD-12" value="Syncitem" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wSRy6hLbSATEtMvh9MJD-14" value="timestamp()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wSRy6hLbSATEtMvh9MJD-15" value="value" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
