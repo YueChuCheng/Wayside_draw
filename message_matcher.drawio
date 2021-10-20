@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-20T06:32:41.578Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="M-U6NGYgF0BAXIo-m5_n" version="15.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-20T06:33:15.965Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="H1-0LigkX_uj9VoktMhH" version="15.5.0" type="github">
   <diagram id="oGIT__D-w69nhTGaexgb" name="Page-1">
     <mxGraphModel dx="2130" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,12 +24,6 @@
         </mxCell>
         <mxCell id="wSRy6hLbSATEtMvh9MJD-6" value="push to buffer according to is device key" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="300" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wSRy6hLbSATEtMvh9MJD-8" value="可是message matcher 也不會全部 camera的封包都收到才送到matcher，所以不能count camera-camera diff" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-590" y="220" width="430" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wSRy6hLbSATEtMvh9MJD-9" value="照message matcher 看來也只是 每個camera 之間的diff而已， 沒辦法看到frame之間的" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-590" y="300" width="430" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wSRy6hLbSATEtMvh9MJD-10" value="run matching&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="10" width="120" height="60" as="geometry" />
