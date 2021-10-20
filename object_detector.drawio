@@ -1,11 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2021-10-20T06:34:03.767Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="OwepTufEOK8Kt5uSrDUq" version="15.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-20T06:39:33.861Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="0ittMEKz7NPtVy-H6-4O" version="15.5.0" type="github">
   <diagram id="HGSPvwuz5ln3wTE1rPlk" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="C0oNeNoLM_tLjaN3xeAn-1" value="detector" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="220" width="120" height="60" as="geometry" />
+        <mxCell id="C0oNeNoLM_tLjaN3xeAn-1" value="src/detector.rs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C0oNeNoLM_tLjaN3xeAn-2" value="detector" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C0oNeNoLM_tLjaN3xeAn-3" value="prepare future" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C0oNeNoLM_tLjaN3xeAn-4" value="batching future" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C0oNeNoLM_tLjaN3xeAn-5" value="detect_future" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="380" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
