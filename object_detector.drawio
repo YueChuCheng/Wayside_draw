@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-20T06:41:46.528Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="s9ODM3L_-W9KYUs09n3V" version="15.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-20T06:42:32.453Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="i7TujeuoWKDQSFediV9P" version="15.5.0" type="github">
   <diagram id="HGSPvwuz5ln3wTE1rPlk" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,11 +19,32 @@
         <mxCell id="C0oNeNoLM_tLjaN3xeAn-5" value="detect_future" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="294" y="380" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="C0oNeNoLM_tLjaN3xeAn-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C0oNeNoLM_tLjaN3xeAn-6" target="C0oNeNoLM_tLjaN3xeAn-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="C0oNeNoLM_tLjaN3xeAn-6" value="publish_future" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="294" y="460" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="C0oNeNoLM_tLjaN3xeAn-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C0oNeNoLM_tLjaN3xeAn-7" target="C0oNeNoLM_tLjaN3xeAn-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="C0oNeNoLM_tLjaN3xeAn-7" value="set task output" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C0oNeNoLM_tLjaN3xeAn-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C0oNeNoLM_tLjaN3xeAn-10" target="C0oNeNoLM_tLjaN3xeAn-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C0oNeNoLM_tLjaN3xeAn-10" value="ObjectDetect" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C0oNeNoLM_tLjaN3xeAn-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C0oNeNoLM_tLjaN3xeAn-12" target="C0oNeNoLM_tLjaN3xeAn-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C0oNeNoLM_tLjaN3xeAn-12" value="AggregateImage" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C0oNeNoLM_tLjaN3xeAn-14" value="AggregateMessage" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="720" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
