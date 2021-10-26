@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-25T16:42:45.468Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="UjS2kgO3qfZNZxMJPx6C" version="15.5.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-26T02:00:24.329Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="IpKA7WgAUN4oK6Nodkf9" version="15.5.6" type="github" pages="2">
   <diagram id="z9VBtLRhlUXzMVaHbMtI" name="main flow">
     <mxGraphModel dx="1747" dy="1682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -271,8 +271,25 @@
         <mxCell id="tfdV7x1EZ6fpZQGGo8Ja-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="B_GnHp5OnjGxpJIFUtSa-1" source="tfdV7x1EZ6fpZQGGo8Ja-58" target="tfdV7x1EZ6fpZQGGo8Ja-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="tfdV7x1EZ6fpZQGGo8Ja-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="B_GnHp5OnjGxpJIFUtSa-1" source="tfdV7x1EZ6fpZQGGo8Ja-58" target="tfdV7x1EZ6fpZQGGo8Ja-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1470" y="1080" />
+              <mxPoint x="1470" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="tfdV7x1EZ6fpZQGGo8Ja-58" value="for track_id in context[&quot;last_track_ids&quot;]" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="B_GnHp5OnjGxpJIFUtSa-1">
           <mxGeometry x="1321.5" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tfdV7x1EZ6fpZQGGo8Ja-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="B_GnHp5OnjGxpJIFUtSa-1" source="tfdV7x1EZ6fpZQGGo8Ja-61" target="tfdV7x1EZ6fpZQGGo8Ja-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tfdV7x1EZ6fpZQGGo8Ja-61" value="get new track id to update" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="B_GnHp5OnjGxpJIFUtSa-1">
+          <mxGeometry x="1510" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tfdV7x1EZ6fpZQGGo8Ja-65" value="homography" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="B_GnHp5OnjGxpJIFUtSa-1">
+          <mxGeometry x="1510" y="1080" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
