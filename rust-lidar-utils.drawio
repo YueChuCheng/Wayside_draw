@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T09:24:34.676Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="rmYg6185A9Gtk2HXQ4pe" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-16T09:28:06.942Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="2kG2dyaIt2Hh3MtaFh43" version="15.9.6" type="github">
   <diagram id="g9rVfQRId_UXP_9nCWD6" name="Page-1">
-    <mxGraphModel dx="3511" dy="2565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1559" dy="1550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -186,6 +186,45 @@
         </mxCell>
         <mxCell id="6qG_eV-OuzegyWjNAK-b-99" value="const&lt;br&gt;(global const)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6qG_eV-OuzegyWjNAK-b-113" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1180" y="-130" width="384" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="6qG_eV-OuzegyWjNAK-b-114" value="package = 12 * line" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="6qG_eV-OuzegyWjNAK-b-113">
+          <mxGeometry width="384" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="6qG_eV-OuzegyWjNAK-b-115" value="" style="group" vertex="1" connectable="0" parent="6qG_eV-OuzegyWjNAK-b-113">
+          <mxGeometry x="10" y="20" width="80" height="228" as="geometry" />
+        </mxCell>
+        <mxCell id="6qG_eV-OuzegyWjNAK-b-116" value="line" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;" vertex="1" parent="6qG_eV-OuzegyWjNAK-b-115">
+          <mxGeometry width="80" height="228" as="geometry" />
+        </mxCell>
+        <mxCell id="6qG_eV-OuzegyWjNAK-b-117" value="channel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6qG_eV-OuzegyWjNAK-b-115">
+          <mxGeometry x="14" y="158" width="54" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6qG_eV-OuzegyWjNAK-b-118" value="channel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6qG_eV-OuzegyWjNAK-b-115">
+          <mxGeometry x="14" y="38" width="54" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6qG_eV-OuzegyWjNAK-b-119" value=".&lt;br&gt;32&lt;br&gt;." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6qG_eV-OuzegyWjNAK-b-115">
+          <mxGeometry x="14" y="88.5" width="54" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="6qG_eV-OuzegyWjNAK-b-120" value="" style="group" vertex="1" connectable="0" parent="6qG_eV-OuzegyWjNAK-b-113">
+          <mxGeometry x="280" y="20" width="80" height="228" as="geometry" />
+        </mxCell>
+        <mxCell id="6qG_eV-OuzegyWjNAK-b-121" value="line" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;" vertex="1" parent="6qG_eV-OuzegyWjNAK-b-120">
+          <mxGeometry width="80" height="228" as="geometry" />
+        </mxCell>
+        <mxCell id="6qG_eV-OuzegyWjNAK-b-122" value="channel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6qG_eV-OuzegyWjNAK-b-120">
+          <mxGeometry x="14" y="158" width="54" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6qG_eV-OuzegyWjNAK-b-123" value="channel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6qG_eV-OuzegyWjNAK-b-120">
+          <mxGeometry x="14" y="38" width="54" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6qG_eV-OuzegyWjNAK-b-124" value=".&lt;br&gt;32&lt;br&gt;." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6qG_eV-OuzegyWjNAK-b-120">
+          <mxGeometry x="14" y="88.5" width="54" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="6qG_eV-OuzegyWjNAK-b-125" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6qG_eV-OuzegyWjNAK-b-113">
+          <mxGeometry x="170" y="108.5" width="54" height="51" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
