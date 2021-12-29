@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-29T07:40:22.969Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="lWyyYuTmiS51hVmG2FBb" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-29T07:41:01.154Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="QVmG1U3dx5sePxoZluhd" version="16.0.3" type="github">
   <diagram id="p_hp3UYVbjeZgwzfY4cO" name="Page-1">
     <mxGraphModel dx="2036" dy="1797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -32,25 +32,31 @@
           <mxGeometry x="410" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JjmnalyWe9DNaIFk7ZTX-10" value="velodyne.rs&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-50" y="670" width="120" height="60" as="geometry" />
+          <mxGeometry x="-50" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JjmnalyWe9DNaIFk7ZTX-11" value="velodyne receiver" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-50" y="760" width="120" height="39" as="geometry" />
+          <mxGeometry x="-50" y="600" width="120" height="39" as="geometry" />
         </mxCell>
         <mxCell id="JjmnalyWe9DNaIFk7ZTX-12" value="rust-bin" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JjmnalyWe9DNaIFk7ZTX-13" value="rust-bin" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-50" y="430" width="120" height="60" as="geometry" />
+          <mxGeometry x="-50" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JjmnalyWe9DNaIFk7ZTX-14" value="pcd-tool" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-50" y="500" width="120" height="60" as="geometry" />
+          <mxGeometry x="-50" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JjmnalyWe9DNaIFk7ZTX-15" value="rust-bin" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-190" y="-70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zY3CWhBnF8Us8pA8xQJU-1" value="main" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-50" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zY3CWhBnF8Us8pA8xQJU-2" value="main" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zY3CWhBnF8Us8pA8xQJU-3" value="data::build_data_workers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="830" width="120" height="39" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
