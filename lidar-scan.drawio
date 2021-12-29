@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-29T07:43:07.634Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="_5eTIZuxd7DvHQ26n7TC" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-29T07:43:50.416Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="QRJ261DExE3n6rvOG2rQ" version="16.0.3" type="github">
   <diagram id="p_hp3UYVbjeZgwzfY4cO" name="Page-1">
     <mxGraphModel dx="1752" dy="1670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -75,6 +75,12 @@
         </mxCell>
         <mxCell id="zY3CWhBnF8Us8pA8xQJU-7" value="build_device_streams" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="960" width="181.54" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="zY3CWhBnF8Us8pA8xQJU-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zY3CWhBnF8Us8pA8xQJU-10" target="zY3CWhBnF8Us8pA8xQJU-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zY3CWhBnF8Us8pA8xQJU-10" value="velodyne_receiver" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="820" width="181.54" height="59" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
