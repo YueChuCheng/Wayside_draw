@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-13T17:01:01.573Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="1RkGKsdGd5ok-lmuUuHq" version="16.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-13T17:09:36.802Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="fnVoYnfWtUaiTq9RRbfy" version="16.2.6" type="github">
   <diagram id="HwV3YDCAdaPyHz8KKPNf" name="Page-1">
     <mxGraphModel dx="974" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,6 +9,9 @@
         </mxCell>
         <mxCell id="R0naT-Z6rodJIse6OpMG-2" value="THI data verify" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="110" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R0naT-Z6rodJIse6OpMG-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R0naT-Z6rodJIse6OpMG-3" target="R0naT-Z6rodJIse6OpMG-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R0naT-Z6rodJIse6OpMG-3" value="drone video" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="440" width="100" height="60" as="geometry" />
@@ -34,7 +37,7 @@
         <mxCell id="R0naT-Z6rodJIse6OpMG-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R0naT-Z6rodJIse6OpMG-9" target="R0naT-Z6rodJIse6OpMG-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R0naT-Z6rodJIse6OpMG-9" value="Mark detect" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="R0naT-Z6rodJIse6OpMG-9" value="len mark detection and classification" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="180" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="R0naT-Z6rodJIse6OpMG-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R0naT-Z6rodJIse6OpMG-11" target="R0naT-Z6rodJIse6OpMG-9">
@@ -52,8 +55,32 @@
         <mxCell id="R0naT-Z6rodJIse6OpMG-18" value="Output data to specific format" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="180" width="90" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="R0naT-Z6rodJIse6OpMG-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R0naT-Z6rodJIse6OpMG-20" target="R0naT-Z6rodJIse6OpMG-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="R0naT-Z6rodJIse6OpMG-20" value="GPS info&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="530" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R0naT-Z6rodJIse6OpMG-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R0naT-Z6rodJIse6OpMG-21" target="R0naT-Z6rodJIse6OpMG-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R0naT-Z6rodJIse6OpMG-21" value="Len detection" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="490" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R0naT-Z6rodJIse6OpMG-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R0naT-Z6rodJIse6OpMG-25" target="R0naT-Z6rodJIse6OpMG-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R0naT-Z6rodJIse6OpMG-25" value="Vehicle detection and classification" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="490" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R0naT-Z6rodJIse6OpMG-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R0naT-Z6rodJIse6OpMG-31" target="R0naT-Z6rodJIse6OpMG-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R0naT-Z6rodJIse6OpMG-31" value="Detect vehicle number, track, position on the len" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="490" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R0naT-Z6rodJIse6OpMG-33" value="Output data to specific format or statistic chart" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="490" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
