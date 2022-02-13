@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-13T17:00:29.426Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="zOzFtb-1BNKdLqJiAkZ6" version="16.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-13T17:01:01.573Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="1RkGKsdGd5ok-lmuUuHq" version="16.2.6" type="github">
   <diagram id="HwV3YDCAdaPyHz8KKPNf" name="Page-1">
     <mxGraphModel dx="974" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,8 +10,8 @@
         <mxCell id="R0naT-Z6rodJIse6OpMG-2" value="THI data verify" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="110" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="R0naT-Z6rodJIse6OpMG-3" value="drone video and GPS info&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="440" width="150" height="60" as="geometry" />
+        <mxCell id="R0naT-Z6rodJIse6OpMG-3" value="drone video" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="440" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="R0naT-Z6rodJIse6OpMG-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R0naT-Z6rodJIse6OpMG-4" target="R0naT-Z6rodJIse6OpMG-6">
           <mxGeometry relative="1" as="geometry" />
@@ -51,6 +51,9 @@
         </mxCell>
         <mxCell id="R0naT-Z6rodJIse6OpMG-18" value="Output data to specific format" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="180" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R0naT-Z6rodJIse6OpMG-20" value="GPS info&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="530" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
